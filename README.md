@@ -60,3 +60,7 @@ footer{background:#1f2937;color:#fff;text-align:center;padding:20px;margin-top:3
 <footer><p>© 2026 | Historia de los Videojuegos</p></footer>
 </body>
 </html>
+<footer><op>carlos estrada</op></footer>
+
+  
+</p></footer>
