@@ -61,6 +61,12 @@ footer{background:#1f2937;color:#fff;text-align:center;padding:20px;margin-top:3
 </body>
 </html>
 <footer><op>carlos andres estrada atoy</op></footer>
-<footer><op>laura valentina acosta goicoechea</op></footer>ç
+</section>
+</div>
+<footer><op>laura valentina acosta goicoechea</op></footer>
+</section>
+</div>
 <footer><op>david santiago muñoz rodriguez</op></footer>
+</section>
+</div>
 <footer><op>10-01</op></footer>
