@@ -59,14 +59,8 @@ footer{background:#1f2937;color:#fff;text-align:center;padding:20px;margin-top:3
 </div>
 <footer><p>© 2026 | Historia de los Videojuegos</p></footer>
 </body>
+<op>carlos andres estrada atoy</op>
+><op>laura valentina acosta goicoechea</op>
+<op>david santiago muñoz rodriguez</op><
+<op>10-01</op>
 </html>
-<footer><op>carlos andres estrada atoy</op></footer>
-</section>
-</div>
-<footer><op>laura valentina acosta goicoechea</op></footer>
-</section>
-</div>
-<footer><op>david santiago muñoz rodriguez</op></footer>
-</section>
-</div>
-<footer><op>10-01</op></footer>
