@@ -59,7 +59,7 @@ footer{background:#1f2937;color:#fff;text-align:center;padding:20px;margin-top:3
 </div>
 </section>
 <section id="integrantes">
-<h2>los integrantes
+<h2>los integrantes</h2>
 <p>carlos andres estrada atoy.</p>
 <p>laura valentina acosta goicoechea.</p>
 <p>david santiago muñoz rodriguez.</p>
