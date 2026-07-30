@@ -30,6 +30,7 @@ footer{background:#1f2937;color:#fff;text-align:center;padding:20px;margin-top:3
 <a href="#historia">Historia</a>
 <a href="#evolucion">Evolución</a>
 <a href="#actualidad">Actualidad</a>
+<a href="#integrantes">integrantes</a>
 </nav>
 <div class="contenedor">
 <section id="historia">
@@ -55,12 +56,16 @@ footer{background:#1f2937;color:#fff;text-align:center;padding:20px;margin-top:3
 <p>Internet permitió jugar con personas de todo el mundo y creó enormes comunidades en línea.</p>
 <p>Hoy también se utilizan en educación, medicina, entrenamiento e investigación.</p>
 <p>Los eSports reúnen a millones de espectadores y jugadores profesionales.</p>
+</div>
+</section>
+<section id="integrantes">
+<h2>los integrantes
+<p>carlos andres estrada atoy.</p>
+<p>laura valentina acosta goicoechea.</p>
+<p>david santiago muñoz rodriguez.</p>
+<p>10-01</p>
 </section>
 </div>
 <footer><p>© 2026 | Historia de los Videojuegos</p></footer>
 </body>
-<op>carlos andres estrada atoy</op>
-><op>laura valentina acosta goicoechea</op>
-<op>david santiago muñoz rodriguez</op><
-<op>10-01</op>
 </html>
