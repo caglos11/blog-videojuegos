@@ -30,7 +30,7 @@ footer{background:#1f2937;color:#fff;text-align:center;padding:20px;margin-top:3
 <a href="#historia">Historia</a>
 <a href="#evolucion">Evolución</a>
 <a href="#actualidad">Actualidad</a>
-<a href="#integrantes">integrantes</a>
+<a href="#Integrantes">Integrantes</a>
 </nav>
 <div class="contenedor">
 <section id="historia">
@@ -56,13 +56,12 @@ footer{background:#1f2937;color:#fff;text-align:center;padding:20px;margin-top:3
 <p>Internet permitió jugar con personas de todo el mundo y creó enormes comunidades en línea.</p>
 <p>Hoy también se utilizan en educación, medicina, entrenamiento e investigación.</p>
 <p>Los eSports reúnen a millones de espectadores y jugadores profesionales.</p>
-</div>
 </section>
-<section id="integrantes">
+<section id="Integrantes">
 <h2>los integrantes</h2>
-<p>carlos andres estrada atoy.</p>
-<p>laura valentina acosta goicoechea.</p>
-<p>david santiago muñoz rodriguez.</p>
+<p>Carlos Andres Estrada Atoy.</p>
+<p>Laura Valentina Acosta Goicoechea.</p>
+<p>David Santiago Muñoz Rodriguez.</p>
 <p>10-01</p>
 </section>
 </div>
