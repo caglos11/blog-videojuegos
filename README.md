@@ -4,67 +4,706 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Historia de los Videojuegos</title>
+
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
-body{background:#f4f4f4;color:#333;line-height:1.8}
-header{background:#1f2937;color:#fff;text-align:center;padding:30px}
-header h1{font-size:40px}
-nav{background:#111827;text-align:center;padding:15px}
-nav a{color:#fff;text-decoration:none;margin:0 15px;font-weight:bold}
-nav a:hover{color:#38bdf8}
-.contenedor{width:90%;max-width:1000px;margin:30px auto;background:#fff;padding:30px;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,.2)}
-h2{color:#2563eb;margin-bottom:15px}
-p{margin-bottom:18px;text-align:justify}
-footer{background:#1f2937;color:#fff;text-align:center;padding:20px;margin-top:30px}
-.tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:20px}
-.tarjeta{background:#e5e7eb;padding:20px;border-radius:10px;text-align:center}
-.tarjeta h3{color:#1d4ed8;margin-bottom:10px}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.8
+}
+
+header{
+    background:#1f2937;
+    color:#fff;
+    text-align:center;
+    padding:30px
+}
+
+header h1{
+    font-size:40px
+}
+
+header p{
+    text-align:center;
+}
+
+nav{
+    background:#111827;
+    text-align:center;
+    padding:15px;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold
+}
+
+nav a:hover{
+    color:#38bdf8
+}
+
+.contenedor{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2)
+}
+
+section{
+    margin-bottom:45px;
+}
+
+h2{
+    color:#2563eb;
+    margin-bottom:15px
+}
+
+h3{
+    color:#1d4ed8;
+}
+
+p{
+    margin-bottom:18px;
+    text-align:justify
+}
+
+footer{
+    background:#1f2937;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:30px
+}
+
+footer p{
+    text-align:center;
+}
+
+.tarjetas{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:20px
+}
+
+.tarjeta{
+    background:#e5e7eb;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.tarjeta h3{
+    margin-bottom:10px;
+}
+
+.destacado{
+    background:#dbeafe;
+    padding:20px;
+    border-left:5px solid #2563eb;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+ul{
+    margin-left:25px;
+    margin-bottom:20px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
 </style>
 </head>
+
+
 <body>
+
+
 <header>
+
 <h1>Historia de los Videojuegos</h1>
-<p>Conoce cómo nació y evolucionó la industria del videojuego.</p>
+
+<p>
+Conoce el origen, evolución e importancia de los videojuegos.
+</p>
+
 </header>
+
+
 <nav>
+
 <a href="#historia">Historia</a>
+
 <a href="#evolucion">Evolución</a>
+
+<a href="#generos">Géneros</a>
+
+<a href="#plataformas">Plataformas</a>
+
 <a href="#actualidad">Actualidad</a>
-<a href="#Integrantes">Integrantes</a>
+
+<a href="#impacto">Impacto</a>
+
+<a href="#bibliografia">Bibliografía</a>
+
+<a href="#integrantes">Integrantes</a>
+
 </nav>
+
+
 <div class="contenedor">
+
+
 <section id="historia">
+
 <h2>¿Cómo comenzaron los videojuegos?</h2>
-<p>Los videojuegos forman parte de la vida cotidiana de millones de personas en todo el mundo. Hoy en día existen en consolas, computadores, teléfonos móviles y dispositivos de realidad virtual. Sin embargo, para llegar al nivel de desarrollo actual tuvieron que pasar por un largo proceso de evolución tecnológica que comenzó hace varias décadas.</p>
-<p>Durante mucho tiempo fue difícil determinar cuál fue el primer videojuego de la historia, ya que existen diferentes definiciones sobre lo que puede considerarse un videojuego.</p>
-<p>Muchos historiadores consideran que el primer videojuego fue <strong>Noughts and Crosses (OXO)</strong>, desarrollado en 1952 por Alexander S. Douglas.</p>
-<p>En 1958 William Higinbotham creó <strong>Tennis for Two</strong>, uno de los primeros videojuegos interactivos.</p>
-<p>En 1962 apareció <strong>Spacewar!</strong>, desarrollado por Steve Russell y estudiantes del MIT.</p>
+
+<p>
+Los videojuegos forman parte de la vida cotidiana de millones de personas en todo el mundo. Actualmente se pueden encontrar en consolas, computadores, teléfonos móviles y dispositivos de realidad virtual. Sin embargo, para alcanzar el nivel tecnológico actual tuvieron que pasar por un largo proceso de evolución que comenzó hace varias décadas.
+</p>
+
+<p>
+Durante mucho tiempo fue difícil determinar cuál fue el primer videojuego de la historia, ya que existen diferentes definiciones sobre lo que puede considerarse un videojuego. Algunas personas consideran que cualquier programa interactivo con imágenes puede ser un videojuego, mientras que otras consideran necesario que exista interacción mediante controles y una respuesta visual.
+</p>
+
+<p>
+Muchos historiadores consideran que uno de los primeros videojuegos fue <strong>Noughts and Crosses (OXO)</strong>, desarrollado en 1952 por Alexander S. Douglas. El juego era una versión digital del tradicional tres en raya y funcionaba en la computadora EDSAC.
+</p>
+
+<p>
+En 1958, el físico estadounidense <strong>William Higinbotham</strong> creó <strong>Tennis for Two</strong>. El juego simulaba un partido de tenis y utilizaba un osciloscopio como pantalla.
+</p>
+
+<p>
+En 1962 apareció <strong>Spacewar!</strong>, desarrollado por Steve Russell y un grupo de estudiantes del Instituto Tecnológico de Massachusetts. El juego permitía que dos jugadores controlaran naves espaciales que luchaban entre sí.
+</p>
+
 </section>
+
+
 <section id="evolucion">
-<h2>Evolución de la industria</h2>
-<p>En 1972 se lanzó <strong>Magnavox Odyssey</strong>, la primera consola doméstica. Ese mismo año apareció <strong>Pong</strong>, de Atari.</p>
-<p>Durante las décadas de 1980 y 1990 surgieron consolas más potentes, mejores gráficos y personajes como Mario, Sonic y Link.</p>
+
+<h2>Evolución de los videojuegos</h2>
+
+<p>
+Durante la década de 1970 los videojuegos comenzaron a convertirse en una industria comercial. En 1972 apareció <strong>Magnavox Odyssey</strong>, considerada una de las primeras consolas domésticas.
+</p>
+
+<p>
+Ese mismo año apareció <strong>Pong</strong>, desarrollado por Atari. Su funcionamiento era sencillo: dos jugadores controlaban unas barras que debían golpear una pelota para evitar que el rival consiguiera un punto.
+</p>
+
+<p>
+Durante las décadas de 1980 y 1990 los videojuegos evolucionaron rápidamente. Las consolas comenzaron a utilizar mejores gráficos, sonido y controles.
+</p>
+
+<p>
+Durante esta época aparecieron personajes que se convirtieron en símbolos de la industria, como <strong>Mario, Sonic y Link</strong>.
+</p>
+
 <div class="tarjetas">
-<div class="tarjeta"><h3>1952</h3><p>Se crea OXO.</p></div>
-<div class="tarjeta"><h3>1972</h3><p>Magnavox Odyssey y Pong.</p></div>
-<div class="tarjeta"><h3>1980-1990</h3><p>Gran crecimiento de la industria.</p></div>
+
+<div class="tarjeta">
+
+<h3>1952</h3>
+
+<p>
+Noughts and Crosses (OXO) aparece como uno de los primeros videojuegos.
+</p>
+
 </div>
+
+
+<div class="tarjeta">
+
+<h3>1958</h3>
+
+<p>
+Tennis for Two demuestra nuevas posibilidades de interacción.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>1962</h3>
+
+<p>
+Spacewar! introduce combates entre naves espaciales.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>1972</h3>
+
+<p>
+Magnavox Odyssey y Pong impulsan la industria comercial.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>1980-1990</h3>
+
+<p>
+Aparecen consolas más avanzadas y personajes famosos.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>2000 en adelante</h3>
+
+<p>
+Internet transforma la forma de jugar y permite partidas en línea.
+</p>
+
+</div>
+
+</div>
+
 </section>
+
+
+<section id="generos">
+
+<h2>Principales géneros de videojuegos</h2>
+
+<p>
+Con el crecimiento de la industria aparecieron diferentes géneros de videojuegos. Cada uno ofrece una experiencia distinta y puede estar dirigido a diferentes tipos de jugadores.
+</p>
+
+<div class="tarjetas">
+
+<div class="tarjeta">
+
+<h3>Acción</h3>
+
+<p>
+Se caracterizan por combates, velocidad, reflejos y diferentes desafíos.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>Aventura</h3>
+
+<p>
+Se enfocan en la exploración, la historia y la resolución de diferentes problemas.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>Deportes</h3>
+
+<p>
+Simulan deportes como fútbol, baloncesto, tenis, carreras y otros.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>RPG</h3>
+
+<p>
+Permiten controlar personajes, desarrollar sus habilidades y avanzar en una historia.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>Estrategia</h3>
+
+<p>
+Requieren planificación, organización y toma de decisiones para conseguir objetivos.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>Shooter</h3>
+
+<p>
+Se centran principalmente en combates donde los jugadores utilizan diferentes armas.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="plataformas">
+
+<h2>Plataformas de videojuegos</h2>
+
+<p>
+Los videojuegos pueden jugarse actualmente en diferentes plataformas. Cada una tiene características, controles y posibilidades diferentes.
+</p>
+
+<ul>
+
+<li>
+<strong>PC:</strong> los computadores permiten jugar una gran variedad de videojuegos y ofrecen diferentes posibilidades de configuración.
+</li>
+
+<li>
+<strong>PlayStation:</strong> plataforma de Sony conocida por sus videojuegos exclusivos y sus diferentes generaciones de consolas.
+</li>
+
+<li>
+<strong>Xbox:</strong> plataforma desarrollada por Microsoft que permite jugar videojuegos y conectarse con otros usuarios.
+</li>
+
+<li>
+<strong>Nintendo:</strong> empresa conocida por personajes como Mario, Link y Kirby.
+</li>
+
+<li>
+<strong>Teléfonos móviles:</strong> permiten acceder a videojuegos desde prácticamente cualquier lugar.
+</li>
+
+<li>
+<strong>Realidad virtual:</strong> permite experimentar mundos digitales de una manera más inmersiva.
+</li>
+
+</ul>
+
+</section>
+
+
+<section>
+
+<h2>Videojuegos en línea</h2>
+
+<p>
+La llegada de Internet provocó una de las transformaciones más importantes de la industria. Los jugadores dejaron de depender únicamente de las partidas individuales o locales y comenzaron a conectarse con personas de diferentes lugares del mundo.
+</p>
+
+<p>
+Los videojuegos en línea permiten jugar partidas competitivas, cooperativas y formar comunidades. También permitieron el crecimiento de plataformas de transmisión en directo y contenido relacionado con videojuegos.
+</p>
+
+<div class="destacado">
+
+<h3>La importancia de Internet</h3>
+
+<p>
+Internet permitió que los videojuegos se convirtieran en una experiencia social en la que los jugadores pueden comunicarse, competir y compartir contenido con personas de diferentes países.
+</p>
+
+</div>
+
+</section>
+
+
 <section id="actualidad">
+
 <h2>Los videojuegos en la actualidad</h2>
-<p>Internet permitió jugar con personas de todo el mundo y creó enormes comunidades en línea.</p>
-<p>Hoy también se utilizan en educación, medicina, entrenamiento e investigación.</p>
-<p>Los eSports reúnen a millones de espectadores y jugadores profesionales.</p>
+
+<p>
+Actualmente los videojuegos son una de las industrias de entretenimiento más importantes del mundo. Existen videojuegos para diferentes edades, gustos y plataformas.
+</p>
+
+<p>
+La tecnología ha permitido crear mundos cada vez más detallados, personajes más complejos y sistemas de juego que ofrecen experiencias muy diferentes.
+</p>
+
+<p>
+También se han desarrollado tecnologías como la realidad virtual, la realidad aumentada y los servicios de videojuegos en la nube.
+</p>
+
+<p>
+Los videojuegos también se utilizan en campos diferentes al entretenimiento, como la educación, la medicina, la investigación científica y la capacitación.
+</p>
+
 </section>
-<section id="Integrantes">
-<h2>los integrantes</h2>
-<p>Carlos Andres Estrada Atoy.</p>
-<p>Laura Valentina Acosta Goicoechea.</p>
-<p>David Santiago Muñoz Rodriguez.</p>
-<p>10-01</p>
-</section>
+
+
+<section>
+
+<h2>Los eSports</h2>
+
+<p>
+Los deportes electrónicos, conocidos como <strong>eSports</strong>, son competencias profesionales de videojuegos. En estos eventos participan jugadores individuales o equipos que compiten por premios y reconocimiento.
+</p>
+
+<p>
+Los eSports han creado una nueva profesión para jugadores, entrenadores, comentaristas y creadores de contenido. Algunos torneos reúnen a miles de personas presencialmente y a millones de espectadores a través de Internet.
+</p>
+
+<div class="tarjetas">
+
+<div class="tarjeta">
+
+<h3>Jugadores</h3>
+
+<p>
+Compiten profesionalmente y entrenan para mejorar sus habilidades.
+</p>
+
 </div>
-<footer><p>© 2026 | Historia de los Videojuegos</p></footer>
+
+
+<div class="tarjeta">
+
+<h3>Equipos</h3>
+
+<p>
+Organizaciones que reúnen jugadores profesionales para competir.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>Torneos</h3>
+
+<p>
+Eventos donde diferentes jugadores o equipos compiten entre sí.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="impacto">
+
+<h2>Impacto de los videojuegos</h2>
+
+<p>
+Los videojuegos han tenido un impacto importante en la sociedad y en la cultura. Actualmente forman parte de la industria del entretenimiento y también tienen presencia en otros campos.
+</p>
+
+<div class="tarjetas">
+
+<div class="tarjeta">
+
+<h3>Educación</h3>
+
+<p>
+Pueden utilizarse para crear experiencias educativas interactivas y ayudar en el aprendizaje.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>Medicina</h3>
+
+<p>
+Algunas tecnologías relacionadas con videojuegos pueden utilizarse en procesos de entrenamiento y rehabilitación.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>Social</h3>
+
+<p>
+Los videojuegos permiten crear comunidades y establecer relaciones entre personas de diferentes lugares.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>Tecnología</h3>
+
+<p>
+El desarrollo de videojuegos impulsa avances relacionados con gráficos, inteligencia artificial, sonido y realidad virtual.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Ventajas y desventajas</h2>
+
+<div class="tarjetas">
+
+<div class="tarjeta">
+
+<h3>Ventajas</h3>
+
+<p>
+Pueden mejorar la coordinación, estimular la creatividad, ayudar a resolver problemas y facilitar la interacción social.
+</p>
+
+</div>
+
+
+<div class="tarjeta">
+
+<h3>Desventajas</h3>
+
+<p>
+El uso excesivo puede afectar el tiempo dedicado al estudio, descanso, actividad física y otras actividades importantes.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>El futuro de los videojuegos</h2>
+
+<p>
+El futuro de los videojuegos está relacionado con el desarrollo de nuevas tecnologías. La inteligencia artificial, la realidad virtual, la realidad aumentada y los servicios en la nube podrían cambiar todavía más la forma en que las personas juegan.
+</p>
+
+<p>
+También es posible que los videojuegos sean cada vez más interactivos y capaces de adaptarse a las decisiones de cada jugador.
+</p>
+
+<p>
+La evolución de los videojuegos demuestra cómo una tecnología creada inicialmente como una forma de entretenimiento terminó convirtiéndose en una industria que tiene influencia en la cultura, la tecnología y la sociedad.
+</p>
+
+</section>
+
+<section id="bibliografia">
+
+<h2>Bibliografía</h2>
+
+<p>
+Las siguientes fuentes fueron consultadas para la elaboración de esta página:
+</p>
+
+<ul>
+
+<li>
+<a href="https://www.computerhistory.org/timeline/graphics-games/" target="_blank">
+Computer History Museum - Graphics & Games: Timeline of Computer History
+</a>
+</li>
+
+<li>
+<a href="https://www.computerhistory.org/pdp-1/spacewar/" target="_blank">
+Computer History Museum - Spacewar!
+</a>
+</li>
+
+<li>
+<a href="https://www.si.edu/es/spotlight/the-father-of-the-video-game-the-ralph-baer-prototypes-and-electronic-games/video-game-history" target="_blank">
+Smithsonian Institution - Video Game History
+</a>
+</li>
+
+<li>
+<a href="https://www.si.edu/spotlight/the-father-of-the-video-game-the-ralph-baer-prototypes-and-electronic-games" target="_blank">
+Smithsonian Institution - The Father of the Video Game
+</a>
+</li>
+
+<li>
+<a href="https://www.history.com/articles/history-of-video-games" target="_blank">
+HISTORY - Video Game History
+</a>
+</li>
+
+</ul>
+
+</section>
+
+<section id="integrantes">
+
+<h2>Los integrantes</h2>
+
+<p>
+<strong>Carlos Andres Estrada Atoy.</strong>
+</p>
+
+<p>
+<strong>Laura Valentina Acosta Goicoechea.</strong>
+</p>
+
+<p>
+<strong>David Santiago Muñoz Rodriguez.</strong>
+</p>
+
+<p>
+<strong>10-01</strong>
+</p>
+
+</section>
+
+
+</div>
+
+
+<footer>
+
+<p>© 2026 | Historia de los Videojuegos</p>
+
+<p>Proyecto escolar</p>
+
+</footer>
+
+
 </body>
 </html>
